@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-test/config-test.iml" filepath="$PROJECT_DIR$/config-test/config-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-test/eureka-test.iml" filepath="$PROJECT_DIR$/eureka-test/eureka-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-user-test/feign-user-test.iml" filepath="$PROJECT_DIR$/feign-user-test/feign-user-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-A-test/service-A-test.iml" filepath="$PROJECT_DIR$/service-A-test/service-A-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-B-test/service-B-test.iml" filepath="$PROJECT_DIR$/service-B-test/service-B-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-test/service-test.iml" filepath="$PROJECT_DIR$/service-test/service-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-simple-example.iml" filepath="$PROJECT_DIR$/spring-cloud-simple-example.iml" />
+    </modules>
+  </component>
+</project>

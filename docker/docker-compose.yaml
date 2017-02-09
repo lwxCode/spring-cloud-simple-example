@@ -1,0 +1,33 @@
+configserver:
+  image: lwx/config-test
+  ports:
+   - "8800:8800"
+  links:
+   - discovery
+discovery:
+  image: lwx/eureka-test
+  ports:
+   - "8810:8810"
+  links:
+   - discovery
+#   - rabbitmq
+hystrix:
+  image: lwx/feign-user-test
+  ports:
+   - "8888:8888"
+     links:
+      - discovery
+simple-service:
+  image: lwx/service-A-test
+  ports:
+   - "8880:8880"
+   links:
+     - discovery
+     - configserver
+simple-serviceB:
+  image: lwx/service-B-test
+  ports:
+   - "8881:8881"
+    links:
+      - discovery
+      - configserver

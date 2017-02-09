@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-test" />
+        <module name="eureka-test" />
+        <module name="feign-user-test" />
+        <module name="service-A-test" />
+        <module name="service-B-test" />
+        <module name="service-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-test" target="1.8" />
+      <module name="eureka-test" target="1.8" />
+      <module name="eurekatest" target="1.8" />
+      <module name="feign-user-test" target="1.8" />
+      <module name="service-A-test" target="1.8" />
+      <module name="service-B-test" target="1.8" />
+      <module name="service-test" target="1.8" />
+      <module name="spring-cloud-simple-example" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
